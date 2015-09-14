@@ -1,0 +1,14 @@
+#!/bin/sh
+
+brew_install_or_upgrade 'wget'
+brew_install_or_upgrade 'rename'
+brew_install_or_upgrade 'unrar'
+
+# NCurses Disk Usage
+brew_install_or_upgrade 'ncdu'
+
+brew cask install alfred
+brew cask install little-snitch
+
+brew cask install mattr-slate
+cp ./slate.js $HOME/.slate.js

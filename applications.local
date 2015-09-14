@@ -1,0 +1,19 @@
+#!/bin/sh
+
+brew cask install 1password
+brew cask install atom
+brew cask install appcleaner
+brew cask install cyberduck
+brew cask install dropbox
+brew cask install evernote
+brew cask install google-chrome
+brew cask install slack
+brew cask install sonos
+brew cask install spotify
+brew cask install sublime-text
+brew cask install vlc
+
+# PhD
+brew cask install mendeley-desktop
+brew cask install mactex
+brew cask install texpad

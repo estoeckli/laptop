@@ -1,0 +1,42 @@
+#!/bin/sh
+
+# Databases
+brew_install_or_upgrade 'sqlite'
+brew_install_or_upgrade 'postgres'
+brew_launchctl_restart 'postgresql'
+brew_install_or_upgrade 'mongodb'
+brew_install_or_upgrade 'mysql'
+#brew_install_or_upgrade 'neo4j'
+#brew_install_or_upgrade 'influxdb'
+
+# Java/Scala
+brew_install_or_upgrade 'maven'
+brew_install_or_upgrade 'gradle'
+brew cask install java
+brew_install_or_upgrade 'scala'
+brew cask install intellij-idea
+
+# Mobile
+brew cask install android-studio
+
+# Python
+brew_install_or_upgrade 'python3'
+brew cask install pycharm
+
+# Erlang
+#brew_install_or_upgrade 'erlang'
+#brew_install_or_upgrade 'rebar'
+
+# SML
+#brew_install_or_upgrade 'polyml'
+
+# Lisp
+#brew_install_or_upgrade 'sbcl'
+
+# Haskell
+brew_install_or_upgrade 'ghc'
+brew_install_or_upgrade 'cabal-install'
+
+# Others
+#brew_install_or_upgrade 'shunit2'
+brew cask install github-desktop

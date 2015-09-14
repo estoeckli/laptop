@@ -48,23 +48,24 @@ What it sets up
 * [Bundler] for managing Ruby libraries
 * [Homebrew] for managing operating system libraries
 * [ImageMagick] for cropping and resizing images
+* Freetype
 * [Node.js] and [NPM], for running apps and installing JavaScript packages
-* [Postgres] for storing relational data
 * [Rbenv] for managing versions of Ruby
 * [Ruby Build] for installing Rubies
 * [Ruby] stable for writing general-purpose code
 * [Zsh] as your shell
+* [Brew Cask] to manage Mac applications in the terminal
 
 [Bundler]: http://bundler.io/
 [Homebrew]: http://brew.sh/
 [ImageMagick]: http://www.imagemagick.org/
 [Node.js]: http://nodejs.org/
 [NPM]: https://www.npmjs.org/
-[Postgres]: http://www.postgresql.org/
 [Rbenv]: https://github.com/sstephenson/rbenv
 [Ruby Build]: https://github.com/sstephenson/ruby-build
 [Ruby]: https://www.ruby-lang.org/en/
 [Zsh]: http://www.zsh.org/
+[Brew Cask]: https://github.com/caskroom/homebrew-cask
 
 It should take less than 15 minutes to install (depends on your machine).
 

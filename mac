@@ -133,10 +133,12 @@ brew update
 
 brew_install_or_upgrade 'zsh'
 brew_install_or_upgrade 'git'
-brew_install_or_upgrade 'postgres'
-brew_launchctl_restart 'postgresql'
 brew_install_or_upgrade 'vim'
+brew_install_or_upgrade 'jpeg'
+brew_install_or_upgrade 'libpng'
+brew_install_or_upgrade 'libtiff'
 brew_install_or_upgrade 'imagemagick'
+brew_install_or_upgrade 'freetype'
 brew_install_or_upgrade 'node'
 
 brew_install_or_upgrade 'rbenv'
@@ -167,6 +169,25 @@ gem_install_or_update 'bundler'
 fancy_echo "Configuring Bundler ..."
   number_of_cores=$(sysctl -n hw.ncpu)
   bundle config --global jobs $((number_of_cores - 1))
+
+# Brew Cask
+brew_tap 'caskroom/cask'
+brew_install_or_upgrade 'brew-cask'
+
+# Custom packages: system helper
+if [ -f "./system-helper.local" ]; then
+. "./system-helper.local"
+fi
+
+# Custom packages: mac applications for everyday use
+if [ -f "./applications.local" ]; then
+. "./applications.local"
+fi
+
+# Custom packages: development packages
+if [ -f "./dev.local" ]; then
+. "./dev.local"
+fi
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
