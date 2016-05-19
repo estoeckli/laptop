@@ -176,18 +176,24 @@ brew_install_or_upgrade 'brew-cask'
 
 # Custom packages: system helper
 fancy_echo "Installing helper tools..."
-curl -fsS \
-  'https://raw.githubusercontent.com/estoeckli/laptop/master/system-helper.local' | sh
+curl -O \
+  'https://raw.githubusercontent.com/estoeckli/laptop/master/system-helper.local'
+source system-helper.local
+rm system-helper.local
 
 # Custom packages: mac applications for everyday use
 fancy_echo "Installing everyday tools..."
-curl -fsS \
-  'https://raw.githubusercontent.com/estoeckli/laptop/master/applications.local' | sh
+curl -O \
+  'https://raw.githubusercontent.com/estoeckli/laptop/master/applications.local'
+source applications.local
+rm applications.local
 
 # Custom packages: development packages
 fancy_echo "Installing dev tools..."
-curl -fsS \
-  'https://raw.githubusercontent.com/estoeckli/laptop/master/dev.local' | sh
+curl -O \
+  'https://raw.githubusercontent.com/estoeckli/laptop/master/dev.local'
+source dev.local
+rm dev.local  
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
