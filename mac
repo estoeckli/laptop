@@ -175,19 +175,19 @@ brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
 
 # Custom packages: system helper
-if [ -f "./system-helper.local" ]; then
-. "./system-helper.local"
-fi
+fancy_echo "Installing helper tools..."
+curl -fsS \
+  'https://raw.githubusercontent.com/estoeckli/laptop/master/system-helper.local' | sh
 
 # Custom packages: mac applications for everyday use
-if [ -f "./applications.local" ]; then
-. "./applications.local"
-fi
+fancy_echo "Installing everyday tools..."
+curl -fsS \
+  'https://raw.githubusercontent.com/estoeckli/laptop/master/applications.local' | sh
 
 # Custom packages: development packages
-if [ -f "./dev.local" ]; then
-. "./dev.local"
-fi
+fancy_echo "Installing dev tools..."
+curl -fsS \
+  'https://raw.githubusercontent.com/estoeckli/laptop/master/dev.local' | sh
 
 if [ -f "$HOME/.laptop.local" ]; then
   . "$HOME/.laptop.local"
