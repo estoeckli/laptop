@@ -16,6 +16,5 @@ brew cask install sublime-text
 brew cask install vlc
 
 # PhD
-brew cask install mendeley-desktop
 brew cask install mactex
 brew cask install texpad
