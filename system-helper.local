@@ -11,4 +11,4 @@ brew cask install alfred
 brew cask install little-snitch
 
 brew cask install mattr-slate
-cp ./slate.js $HOME/.slate.js
+curl -o $HOME/.slate.js https://raw.githubusercontent.com/estoeckli/laptop/master/.slate.js
