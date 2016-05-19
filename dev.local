@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# General
+#brew_install_or_upgrade 'shunit2'
+brew cask install github-desktop
+brew cask install chrome-devtools
+brew cask install webstorm
+brew cask install intellij-idea
+brew cask install pycharm
+
 # Databases
 brew_install_or_upgrade 'sqlite'
 brew_install_or_upgrade 'postgres'
@@ -13,15 +21,13 @@ brew_install_or_upgrade 'mysql'
 brew_install_or_upgrade 'maven'
 brew_install_or_upgrade 'gradle'
 brew cask install java
-brew_install_or_upgrade 'scala'
-brew cask install intellij-idea
+#brew_install_or_upgrade 'scala'
 
 # Mobile
 brew cask install android-studio
 
 # Python
 brew_install_or_upgrade 'python3'
-brew cask install pycharm
 
 # Erlang
 #brew_install_or_upgrade 'erlang'
@@ -34,9 +40,5 @@ brew cask install pycharm
 #brew_install_or_upgrade 'sbcl'
 
 # Haskell
-brew_install_or_upgrade 'ghc'
-brew_install_or_upgrade 'cabal-install'
-
-# Others
-#brew_install_or_upgrade 'shunit2'
-brew cask install github-desktop
+#brew_install_or_upgrade 'ghc'
+#brew_install_or_upgrade 'cabal-install'
