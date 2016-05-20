@@ -2,6 +2,7 @@
 
 # General
 #brew_install_or_upgrade 'shunit2'
+brew cask install iterm2
 brew cask install github-desktop
 brew cask install chrome-devtools
 brew cask install webstorm
