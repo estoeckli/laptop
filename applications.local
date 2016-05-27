@@ -4,6 +4,7 @@ brew cask install 1password
 brew cask install atom
 brew cask install appcleaner
 brew cask install calibre
+brew cask install citrix-receiver
 brew cask install cyberduck
 brew cask install dropbox
 brew cask install evernote
