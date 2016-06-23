@@ -1,21 +1,22 @@
 #!/bin/sh
 
-brew cask install 1password
-brew cask install atom
-brew cask install appcleaner
-brew cask install calibre
-brew cask install citrix-receiver
-brew cask install cyberduck
-brew cask install dropbox
-brew cask install evernote
-brew cask install google-chrome
-brew cask install slack
-brew cask install sonos
-brew cask install skype
-brew cask install spotify
-brew cask install sublime-text
-brew cask install vlc
+brew cask install --appdir="/Applications" 1password
+brew cask install --appdir="/Applications" atom
+brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" calibre
+brew cask install --appdir="/Applications" citrix-receiver
+brew cask install --appdir="/Applications" cyberduck
+brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" evernote
+brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" google-drive
+brew cask install --appdir="/Applications" slack
+brew cask install --appdir="/Applications" sonos
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" spotify
+brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" vlc
 
 # PhD
-brew cask install mactex
-brew cask install texpad
+brew cask install --appdir="/Applications" mactex
+brew cask install --appdir="/Applications" texpad
