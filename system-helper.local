@@ -15,4 +15,4 @@ brew cask install mattr-slate
 curl -o $HOME/.slate.js https://raw.githubusercontent.com/estoeckli/laptop/master/.slate.js
 
 # Install Swiss Army Knife for Mac OS X (https://github.com/rgcr/m-cli)
-curl -fsSL https://raw.githubusercontent.com/rgcr/m-cli/master/install.sh | sh
+brew install m-cli
