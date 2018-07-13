@@ -6,26 +6,26 @@ brew cask install iterm2
 brew cask install github-desktop
 brew cask install chrome-devtools
 brew cask install webstorm
-brew cask install intellij-idea
+#brew cask install intellij-idea
 brew cask install pycharm
 
 # Databases
-brew_install_or_upgrade 'sqlite'
-brew_install_or_upgrade 'postgres'
-brew_launchctl_restart 'postgresql'
-brew_install_or_upgrade 'mongodb'
-brew_install_or_upgrade 'mysql'
+#brew_install_or_upgrade 'sqlite'
+#brew_install_or_upgrade 'postgres'
+#brew_launchctl_restart 'postgresql'
+#brew_install_or_upgrade 'mongodb'
+#brew_install_or_upgrade 'mysql'
 #brew_install_or_upgrade 'neo4j'
 #brew_install_or_upgrade 'influxdb'
 
 # Java/Scala
-brew_install_or_upgrade 'maven'
-brew_install_or_upgrade 'gradle'
-brew cask install java
+#brew_install_or_upgrade 'maven'
+#brew_install_or_upgrade 'gradle'
+#brew cask install java
 #brew_install_or_upgrade 'scala'
 
 # Mobile
-brew cask install android-studio
+#brew cask install android-studio
 
 # Python
 brew_install_or_upgrade 'python3'
