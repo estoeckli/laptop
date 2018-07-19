@@ -19,3 +19,4 @@ brew cask install --appdir="/Applications" vlc
 # PhD
 brew cask install --appdir="/Applications" mactex
 brew cask install --appdir="/Applications" texpad
+brew cask install --appdir="/Applications" zotero
