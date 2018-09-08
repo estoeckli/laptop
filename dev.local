@@ -2,6 +2,7 @@
 
 # General
 #brew_install_or_upgrade 'shunit2'
+brew cask install the-unarchiver
 brew cask install iterm2
 brew cask install github
 brew cask install chrome-devtools
