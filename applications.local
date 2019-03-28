@@ -4,7 +4,6 @@ brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" appcleaner
 #brew cask install --appdir="/Applications" calibre
-brew cask install --appdir="/Applications" citrix-workspace
 brew cask install --appdir="/Applications" cyberduck
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
