@@ -171,7 +171,7 @@ fancy_echo "Configuring Bundler ..."
   bundle config --global jobs $((number_of_cores - 1))
 
 # Brew Cask
-# brew_tap 'caskroom/cask'
+brew tap homebrew/cask-drivers
 # brew_install_or_upgrade 'brew-cask'
 
 # Custom packages: system helper
