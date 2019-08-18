@@ -7,6 +7,7 @@ brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" cyberduck
 brew cask install --appdir="/Applications" dropbox
 #brew cask install --appdir="/Applications" evernote
+brew cask install --appdir="/Applications" opera
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" google-backup-and-sync
 brew cask install --appdir="/Applications" google-drive-file-stream
