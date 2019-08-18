@@ -6,7 +6,7 @@ brew cask install --appdir="/Applications" appcleaner
 #brew cask install --appdir="/Applications" calibre
 brew cask install --appdir="/Applications" cyberduck
 brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" evernote
+#brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" google-backup-and-sync
 brew cask install --appdir="/Applications" google-drive-file-stream
@@ -17,6 +17,6 @@ brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" vlc
 
 # PhD
-brew cask install --appdir="/Applications" mactex
-brew cask install --appdir="/Applications" texpad
+#brew cask install --appdir="/Applications" mactex
+#brew cask install --appdir="/Applications" texpad
 brew cask install --appdir="/Applications" zotero
